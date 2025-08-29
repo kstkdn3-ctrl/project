@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Story+Script&display=swap');
+html {
+  scroll-behavior: smooth;
+}
 body {
     margin: 0;
     padding: 0;
@@ -44,8 +47,9 @@ header {
     font-size: 10vw;
 }
 
-.header_btn {
-    cursor: pointer;
+a .fa-chevron-down {
+  color: black;
+  cursor: pointer;
 }
 
 .header_btn:hover {
